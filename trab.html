@@ -4,15 +4,15 @@
 
 <head>
 
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link rel="shortcut icon" href="images/favicon.ico" />
 
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
 
-  <title>Black Mesa Br</title>
+    <title>Black Mesa Br</title>
 
 </head>
 
@@ -21,95 +21,91 @@
 
 
 
-  <header>
+    <header>
 
-    <!-- Abas -->
 
-    <div class="topnav">
+        <div class="topnav">
 
-      <a href="#"><img src="images/favicon.ico" class="logo"/></a>
+            <a href="#"><img src="images/favicon.ico" class="logo" /></a>
 
-      <a href="index.html">Início</a>
-      <a class="active" href="trab.html">Trabalhos</a>
+            <a href="index.html">Início</a>
+            <a class="active" href="trab.html">Trabalhos</a>
 
-      <a href="info.html">Sobre</a>
 
-    </div>
-
-  </header>
-  
-  <main>
-    <section id="Dicas">
-         <h1 class="title">Trabalhos</h1>
-          <p class="texto">
-        Trabalhos realizados pelo grupo Black Mesa
-          </p>
-      <div class="card" onclick="toggleCard(this)">
-      <div class="card-header">
-        <h2>2026</h2>
-        <p class="texto">trabalhos do ano de 2026</p>
-      </div>
-      <div class="card-content">
-      </div>
-      
-      <div class="card-extra">
-        <div class="card-header">
-        <h2>Interdisciplinares</h2>
-        <p>Os principais testadores do Site</p>
         </div>
-        
-    <div class="card-content">
-         <figure>
-          <img src="images/Liam.jpg" class="img-redonda">
-          <h3>Robótica - Português - Matemática</h3>
-          <h4></h4>
-          <figcaption>"<a href="https://canva.link/duf0wwnvrcmt9ee"></a>"</figcaption>
-        </figure>
-             
-  </div>
-</div>
+
+    </header>
+
+    <main>
+        <section id="Dicas">
+            <h1 class="title">Trabalhos</h1>
+            <p class="texto">
+                Trabalhos realizados pelo grupo Black Mesa
+            </p>
+            <div class="card" onclick="toggleCard(this)">
+                <div class="card-header">
+                    <h2>2026</h2>
+                    <p class="texto">trabalhos do ano de 2026</p>
+                </div>
+                <div class="card-content">
+                </div>
+
+                <div class="card-extra">
+                    <div class="card-header">
+                        <h2>Interdisciplinares</h2>
+                        <p>Os principais testadores do Site</p>
+                    </div>
+
+                    <div class="card-content">
+                        <h3>Robótica - Português - Matemática</h3>
+                        <p>Objetivos:</p>
+                        <ul>
+                            <li><a href="https://canva.link/1dgn9vmc5c6slsh">Canva</a></li>
+                            <li><a href="https://www.mediafire.com/file/qr2te22dvtss6cn/Mapa2026.zip/file">Mapa do Minecraft</a></li>
+                            <li><a href="https://suno.com/song/f58a7414-23ab-43d6-8948-74ee8cb60353?sh=8uz2O2MkH2SYfGxQ">Música: Fatoração</a></li>
+                            <li><a href="https://www.mureka.ai/pt/song-detail/132258115878913?source=switch">Música: Produtos notáveis</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-  
-  <footer>
 
-  <div class="footer-content">
+    <footer>
 
-    <p>&copy; 2026 - Black Mesa Br</p>
+        <div class="footer-content">
 
-    <p>Desenvolvido por Vinzy</p>
+            <p>&copy; 2026 - Black Mesa Br</p>
+
+            <p>Desenvolvido por Vinzy</p>
 
 
 
-    <div class="footer-links">
+            <div class="footer-links">
 
-      <a href="index.html">Início</a>
+                <a href="index.html">Início</a>
 
-      <a href="trab.html">Trabalhos</a>
-      <a href="info.html">Sobre</a>
+                <a href="trab.html">Trabalhos</a>
 
-    </div>
+            </div>
 
-  </div>
+        </div>
 
-</footer>
+    </footer>
 
-<script>
-function toggleCard(card) {
-  card.classList.toggle("active");
-}
-function toggleCard(card) {
-  const extra = card.querySelector(".card-extra");
+    <script>
+        function toggleCard(card) {
+            const extra = card.querySelector(".card-extra");
 
-  if (card.classList.contains("active")) {
-    extra.style.maxHeight = null;
-    card.classList.remove("active");
-  } else {
-    extra.style.maxHeight = extra.scrollHeight + "px";
-    card.classList.add("active");
-  }
-}
-</script>
+            if (card.classList.contains("active")) {
+                extra.style.maxHeight = null;
+                card.classList.remove("active");
+            } else {
+                extra.style.maxHeight = extra.scrollHeight + "px";
+                card.classList.add("active");
+            }
+        }
+    </script>
 </body>
 
 </html>
